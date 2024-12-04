@@ -1,8 +1,11 @@
 import Profile from './Profile'
+import FriendList from './FriendList'
 import './App.css'
 import './Profile.module.css'
+import friends from "../friends.json"
 import userData from "../userData.json"
-import FriendList from './FriendList'
+
+
 
 function App() {
   return (
@@ -14,9 +17,12 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <FriendList /> 
+
+      <FriendList friends={friends} /> 
     </>
   );
 }
 export default App
+ 
 
+ 
