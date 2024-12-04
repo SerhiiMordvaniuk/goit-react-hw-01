@@ -9,7 +9,8 @@ function FriendList({friends}) {
                                 <div>
                                     <img src={friend.avatar} alt={friend.name} width="48" />
                                     <p>{friend.name}</p>
-                                    <p>{ friend.isOnline ? `Online` : `Offline` }</p>
+                                    {friend.isOnline && (<p style={{ color: "green" }}>Online</p>)}
+                                    {!friend.isOnline && (<p style={{color:"red"}}>Offline</p>)}
                                 </div>
                             </li>
                 })}
