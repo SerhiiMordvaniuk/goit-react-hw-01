@@ -1,5 +1,10 @@
+.title{
+    font-weight: 700;
+}
+
 .table{
     border: 1px solid black;
+    width: 360px;
 }
 
 .head{
@@ -12,6 +17,4 @@
 
 }
 
-td{
-    border: 10px soled green
-}
+ 

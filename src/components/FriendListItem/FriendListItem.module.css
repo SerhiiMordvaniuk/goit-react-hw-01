@@ -1,3 +1,7 @@
+.item{
+    position: relative;
+}
+
 
 .img{
     width: 60px;
@@ -15,10 +19,28 @@
 }
 
 .green {
-    color: green
+    color: green;
 }
 
 .blink {
-    animation: blink 2s infinite;
-    /* Параметры анимации */
+    animation-name: blink;
+    animation-timing-function: linear;
+    animation-duration: 2.4s;
+    animation-iteration-count: infinite;
+    position:absolute;
+    top: 45%;
+    right: 35%;
+    z-index: 10;
+    color: rgb(3, 255, 3);
 }
+@keyframes blink {
+    50% {
+        opacity: 50%;
+    }
+}
+
+
+.hidden{
+    display: none;
+}
+
