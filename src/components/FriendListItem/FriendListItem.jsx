@@ -7,7 +7,7 @@ function FriendListItem({ name, avatar, isOnline }) {
         <div className={css.item}>
             <img src={avatar} alt={name} className={css.img}  />
             <p className={css.name}>{name}</p>
-            <TbPointFilled className={clsx(isOnline ? css.blink : css.hidden)} />
+            <TbPointFilled className={clsx(isOnline ? css.blink : css.hidden)} size="28"/>
             <p className={clsx(isOnline? css.green  : css.red)}>{isOnline? `Online` : `Offline`}</p>
         </div>
     )
