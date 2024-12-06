@@ -1,4 +1,11 @@
+ 
+
+.title{
+    font-weight: 700;
+}
+
 .list {
+    width: 480px ;
     padding-left: 0;
     display: flex;
     justify-content: center;
@@ -11,11 +18,3 @@
     border-radius: 5px;
 }
 
-.red{
-    color: red;
-
-}
-
-.green{
-    color: green
-}
