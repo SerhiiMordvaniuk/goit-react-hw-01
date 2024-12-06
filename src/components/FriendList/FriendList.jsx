@@ -2,8 +2,7 @@
 import css from "./FriendList.module.css"
 import clsx from "clsx";
 
-function FriendList({friends}) {
-   
+function FriendList({ friends }) {
     return (
         <>
             <ul className={css.list}>

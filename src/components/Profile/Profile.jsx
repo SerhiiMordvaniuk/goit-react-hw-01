@@ -6,7 +6,7 @@ function Profile(props) {
     return (
         <>
             <div className={style.profile}>
-                <div className='name-container'>
+                <div className={style.container}>
                     <img
                         src={props.image}
                         alt={props.name}

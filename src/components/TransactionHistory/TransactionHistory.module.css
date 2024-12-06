@@ -1,1 +1,17 @@
- 
+.table{
+    border: 1px solid black;
+}
+
+.head{
+    background-color: #28282d;
+    color: #f0f0f0
+}
+
+.item:nth-child(even) {
+    background-color: lightgray;
+
+}
+
+td{
+    border: 10px soled green
+}
