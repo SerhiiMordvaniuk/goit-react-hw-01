@@ -4,7 +4,7 @@ import TransactionHistory from "./TransactionHistory/TransactionHistory"
 import './App.css'
 import friends from "../friends.json"
 import userData from "../userData.json"
-import transactions from '../components/transactions.json'
+import transactions from '../transactions.json'
 
 
 
